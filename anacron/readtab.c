@@ -30,7 +30,9 @@
 #include <errno.h>
 #include <stdio.h>
 #include <stdlib.h>
+#ifdef _LIBC
 #include <obstack.h>
+#endif
 #include <limits.h>
 #include <fnmatch.h>
 #include <unistd.h>
